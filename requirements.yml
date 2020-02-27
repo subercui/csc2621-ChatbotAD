@@ -227,3 +227,4 @@ dependencies:
     - websocket-client==0.56.0
     - werkzeug==0.16.0
     - wrapt==1.11.2
+prefix: ~/.conda/envs/csc2621
