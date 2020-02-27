@@ -14,3 +14,11 @@ The command `python examples/train_model.py -m hugging_face/gpt2 --add-special-t
 [ time:16108.0s total_exs:510336 epochs:3.88 ] {'exs': 72, 'loss': 2.54, 'ppl': 12.68, 'token_acc': 0.4557, 'tokens_per_batch': 109.0, 'gnorm': 4.161, 'clip': 1.0, 'updates': 9, 'lr': 1.0, 'gpu_mem_percent': 0.8722, 'total_train_updates': 63792}
 [ time:16110.0s total_exs:510416 epochs:3.88 ] {'exs': 80, 'loss': 2.519, 'ppl': 12.42, 'token_acc': 0.4561, 'tokens_per_batch': 109.4, 'gnorm': 3.855, 'clip': 1.0, 'updates': 10, 'lr': 1.0, 'gpu_mem_percent': 0.8722, 'total_train_updates': 63802}
 [ time:16112.0s total_exs:510488 epochs:3.88 ] {'exs': 72, 'loss': 2.611, 'ppl': 13.62, 'token_acc': 0.4441, 'tokens_per_batch': 115.3, 'gnorm': 3.796, 'clip': 1.0, 'updates': 9, 'lr': 1.0, 'gpu_mem_percent': 0.8722, 'total_train_updates': 63811}
+
+
+
+[ Finished evaluating tasks ['convai2:self'] using datatype valid ]
+{'exs': 7801, 'accuracy': 0.8025, 'f1': 0.8249, 'hits@1': 0.8025, 'hits@5': 0.9754, 'hits@10': 0.9958, 'hits@100': 1.0}
+
+[ Finished evaluating tasks ['convai2:self:no_cands'] using datatype valid ]
+{'exs': 7801, 'accuracy': 0, 'f1': 0.169}
