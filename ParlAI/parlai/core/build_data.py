@@ -430,9 +430,10 @@ def modelzoo_path(datapath, path):
                 my_module.download(datapath)
             except (ImportError, AttributeError):
                 # truly give up
-                raise ImportError(
-                    f'Could not find pretrained model in {module_name} or {module_name_}.'
-                )
+                # raise ImportError(
+                #     f'Could not find pretrained model in {module_name} or {module_name_}.'
+                # )
+                pass
 
         return os.path.join(datapath, 'models', model_path)
     else:
